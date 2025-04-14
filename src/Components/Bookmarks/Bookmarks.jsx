@@ -1,5 +1,6 @@
+import React from 'react';
 import PropTypes from 'prop-types';
-import Bookmark from '../Bookmark/Bookmark';
+import Bookmark from '../Bookmark/Bookmark'; // Ensure this path is also correct
 
 const Bookmarks = ({ bookmarks, readingTime }) => {
   return (
